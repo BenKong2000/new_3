@@ -31,3 +31,5 @@ k %>% summary()
 k %>%
   ggplot() +
   geom_bar(aes(sex))
+
+print(k)
